@@ -1,24 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
-function App() {
+function App(props) {
+
+ function goToGene() {
+   props.history.push("/genes")
+ }
+ function goToVariants() {
+   props.history.push("/variant")
+ }
+ function goToDiseases() {
+   props.history.push("/disease")
+ }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="Home">
+       <div> <button className="genes" onClick={goToGene}>GENES</button></div>
+       <div> <button className="genes" onClick={goToVariants}>VARIANTS</button></div>
+        <div><button className="genes" onClick={goToDiseases}>DISEASES</button></div>
+      
     </div>
   );
 }

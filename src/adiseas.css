@@ -1,0 +1,14 @@
+.diseas-container{
+    margin-left: 550px;
+    margin-top: 20px;
+    border: 1px solid black;
+    padding-left: 25px;
+    width: 7%;
+    background-color: #730c1c;
+    color: white;
+}
+
+.add-new-diseas{
+    margin-left: 520px;
+    margin-top: 10px
+}

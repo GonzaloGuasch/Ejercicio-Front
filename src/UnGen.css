@@ -1,0 +1,22 @@
+.gen_container{
+    margin-left: 520px;
+    margin-top: 30px;
+    padding-left: 25px;
+    border: 1px solid black;
+    width: 17%;
+}
+
+.go-back-button{
+    background-color: #730c1c;
+    color: white;
+    border: 1px solid #730c1c;
+    text-transform: uppercase;
+    margin-left: 160px;
+    margin-top: 30px;
+    font-size: 19px;
+}
+
+.input-gen-container{
+
+    margin-left: 550px;
+}
